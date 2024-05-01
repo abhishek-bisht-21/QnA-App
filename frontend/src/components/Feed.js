@@ -4,7 +4,9 @@ import './css/Feed.css'
 
 function Feed() {
   return (
-    <div className='feed'><QuoraBox/></div>
+    <div className='feed'>
+      <QuoraBox />
+    </div>
   )
 }
 
